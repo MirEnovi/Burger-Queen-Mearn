@@ -1,0 +1,35 @@
+.nav-header {
+	background-color: #282c34;
+	font-size: calc(8px + 2.5vmin);
+	color: white;
+}
+
+.nav-logo {
+	margin-top: .3em;
+	height: 2em;
+}
+
+.nav-margin {
+	display: flex;
+}
+
+.nav-button {
+	margin: .5em;
+}
+
+.font-nav {
+	display: flex;
+	font-size: .8em;
+}
+
+@media screen and (max-width: 600px) {
+	.nav-button {
+		font-size: .1em;
+		margin: .4em;
+		border-radius: 50%;
+	}
+
+	.font-nav {
+		font-size: .6em;
+	}
+}
